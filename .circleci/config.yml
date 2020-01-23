@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/hugo:latest
+      - image: cibuilds/hugo:latest
     working_directory: ~/glennmeyer.dev
     steps:
       - add_ssh_keys:
