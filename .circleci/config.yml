@@ -18,10 +18,13 @@ jobs:
           name: Build site
           working_directory: ~/glennmeyer.dev
           command: HUGO_ENV=production hugo -d ~/public
+      - run:
+          name: Test build output
+          command: htmlproofer ~/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
           name: Deploy to netlify
           working_directory: ~/public
-          command: curl -X POST -d {} https://api.netlify.com/build_hooks/5e28d165c5deb301eac5885d
+          command: curl -X POST -d {} https://api.netlify.com/build_hooks/$NETLIFY_WEBHOOK
 
 workflows:
   main:
