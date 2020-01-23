@@ -32,10 +32,6 @@ jobs:
 workflows:
   main:
     jobs:
-    - hugo/build:
-        html-proofer: true
-        source: src/
-        version: '0.55'
     - build:
         filters:
           branches:
