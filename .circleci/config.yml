@@ -21,15 +21,7 @@ jobs:
       - deploy:
           name: Deploy to netlify
           working_directory: ~/public
-          command: |
-            echo Start;
-            git config credential.helper 'cache --timeout=120';
-            git config user.email "grossmeyer@gmail.com";
-            git config user.name "CircleCI";
-            git add .;
-            git commit --allow-empty -m "Trigger deployment";
-            git push -q git@github.com:grossmeyer/glennmeyer.dev master;
-            echo Done;
+          command: curl -X POST -d {} https://api.netlify.com/build_hooks/5e28d165c5deb301eac5885d
 
 workflows:
   main:
