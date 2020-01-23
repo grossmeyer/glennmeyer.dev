@@ -8,7 +8,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "07:46:12:6e:fe:2c:ce:41:2e:8a:05:84:cf:d2:05:61"
+            - "$SSH_FINGERPRINT"
       - checkout
       - run:
           name: Clone repo
@@ -18,9 +18,6 @@ jobs:
           name: Build site
           working_directory: ~/glennmeyer.dev
           command: HUGO_ENV=production hugo -d ~/public
-      # - run:
-      #     name: Test build output
-      #     command: htmlproofer ~/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
           name: Deploy to netlify
           working_directory: ~/public
