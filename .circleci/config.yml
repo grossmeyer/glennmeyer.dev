@@ -27,7 +27,7 @@ jobs:
             git config user.name "CircleCI"
             git add .
             git commit --allow-empty -m "Trigger deployment"
-            git push -q git@github.com:<USERNAME/ORGANIZATION>/<SITE_NAME>.github.io.git master
+            git push -q git@github.com:grossmeyer/glennmeyer.dev master
 
 workflows:
   main:
