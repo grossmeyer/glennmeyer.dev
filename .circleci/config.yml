@@ -18,9 +18,9 @@ jobs:
           name: Build site
           working_directory: ~/glennmeyer.dev
           command: HUGO_ENV=production hugo -d ~/public
-      - run:
-          name: Test build output
-          command: htmlproofer ~/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      # - run:
+      #     name: Test build output
+      #     command: htmlproofer ~/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
           name: Deploy to netlify
           working_directory: ~/public

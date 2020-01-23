@@ -64,6 +64,5 @@ Found random helpful stuff on the [Hugo Discourse Forums](https://discourse.gohu
 
 It seems like a small thing, but I would like to match my \<a> tags to the green color scheme that I currently have customized. I've spent several hours crawling through the CSS for ReFresh, but haven't found a clean way to target just that. If anyone knows how or where to change that, please let me know!
 
-About the only thing I don't like about the ReFresh theme is that there isn't a clean way to navigate back to the homepage. 
-Ideally there would be a Home link in the top right that would take you back to the start. Not a big deal, but it bothers me.
+About the only thing I don't like about the ReFresh theme is that there isn't a simple way to navigate back to the homepage except hitting the back arrow or typing it manually. Ideally there would be a Home link in the top right that would take you back to the start. Not a big deal, but it bothers me.
 
