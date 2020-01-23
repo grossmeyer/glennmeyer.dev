@@ -40,7 +40,7 @@ For various reasons, I didn't want to create a WordPress blog. Mainly I wanted t
 
 I use Git along with GitHub so that I can easily make changes whether I am at home or working from my laptop. The source files are a public [repo](https://github.com/grossmeyer/glennmeyer.dev) if you are curious how the website is put together.
 
-Deployment is handled automatically whenever I push changes to GitHub by using [CircleCI](https://circleci.com/) which then deploys the updates to [Netlify](https://www.netlify.com/). My domain name is registered with [Namecheap](https://www.namecheap.com/). 
+Deployment is handled automatically whenever I push changes to GitHub by using [CircleCI](https://circleci.com/) which then uses a webhook to notify[Netlify](https://www.netlify.com/) of the update. My domain name is registered with [Namecheap](https://www.namecheap.com/). 
 
 I use [VS Code](https://code.visualstudio.com/) for all of my editing as it makes working with Markdown files very straightforward.
 
