@@ -106,7 +106,7 @@ params:
       title: Email
     # option to specify your linkedin profile in the footer
     linkedin: 
-      link: glenn-meyer-93a58583
+      link: in/glenn-meyer-93a58583
       title: LinkedIn
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
