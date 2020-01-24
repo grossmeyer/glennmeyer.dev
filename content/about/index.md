@@ -41,11 +41,11 @@ These days I am most interested in cloud computing technology and software devel
 
 I intend to write a full blog entry detailing how I created this website, but for now here is the basic overview. 
 
-For various reasons, I didn't want to create a WordPress blog. Mainly I wanted to create something that was easier to manage. I discovered [Hugo](https://gohugo.io/) after dabbling with [Jekyll](https://jekyllrb.com/). I messed around with several different themes before settling on with [ReFresh](https://themes.gohugo.io/hugo-refresh/). ReFresh is easily customizable, and I quite like the look of it.
+For various reasons, I didn't want to create a WordPress blog. Mainly I wanted to create something that was easier to manage. I discovered [Hugo](https://gohugo.io/) after dabbling with [Jekyll](https://jekyllrb.com/). Hugo is very fast and has a great local development workflow. After experimenting with Hugo for a couple hours, I realized it suited my needs quite well and I decided to commit to learning how to deploy my website with it. I built several versions of my website using a variety of different themes before settling on [ReFresh](https://themes.gohugo.io/hugo-refresh/). ReFresh is easily customizable, and I quite like the sharp, clean look of it.
 
 I use Git along with GitHub so that I can easily make changes whether I am at home or working from my laptop. The source files are a public [repo](https://github.com/grossmeyer/glennmeyer.dev) if you are curious how the website is put together.
 
-Deployment is handled automatically whenever I push changes to GitHub by using [CircleCI](https://circleci.com/) which then uses a webhook to notify [Netlify](https://www.netlify.com/) of the update. My domain name is registered with [Namecheap](https://www.namecheap.com/). I'm considering implementing [Forestry](https://forestry.io) as a potential next step for CMS, although I'm not sure I'll need it.
+Deployment is handled automatically whenever I push changes to GitHub by using [CircleCI](https://circleci.com/) which then uses a webhook to notify [Netlify](https://www.netlify.com/) of the update. My domain name is registered with [Namecheap](https://www.namecheap.com/). I'm considering implementing [Forestry](https://forestry.io) as a potential next step for CMS, although I'm not sure I need it just yet.
 
 I use [VS Code](https://code.visualstudio.com/) for all of my editing as it makes working with Markdown files very straightforward. [Solarized Dark theme](https://ethanschoonover.com/solarized/) for life!
 
