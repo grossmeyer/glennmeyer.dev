@@ -30,7 +30,7 @@ In 2017, I made the decision to finish my degree, and I graduated _summa cum lau
 
 ## Current Interests
 
-These days I am most interested in cloud computing technology and software development, especially everything DevOps. I have played around in all three major cloud platforms, but most of my time has been spent in Azure and AWS. Kubernetes and Docker are quite fun to use and we've been evaluating potential use cases at work recently which is pretty cool. I'm currently studying for AZ-103 Azure Administrator and AWS Solutions Architect Associate. Additionally, I have been learning how to code, working mostly with Java and JavaScript, but also using Python to automate some basic networking tasks. 
+These days I am most interested in cloud computing technology and software development, especially everything DevOps. I have played around in all three major cloud platforms, but most of my time has been spent in Azure and AWS. Kubernetes and Docker are quite fun to use and we've been evaluating potential use cases at work recently which is pretty cool. I recently completed my AWS Solutions Architect - Associate and I'm now studying for AZ-103 Azure Administrator and the CKA (Kubernetes). Additionally, I have been learning how to code, most recently working mostly with full-stack JavaScript (using MongoDB, ExpressJS, VanillaJS, NodeJS) and also using Python to automate some basic configuration tasks with Ansible and Vagrant.
 
 ## How This Website Was Built
 
