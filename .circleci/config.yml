@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Clone repo
           working_directory: ~/
-          command: git clone -b master git@github.com:grossmeyer/glennmeyer.dev public
+          command: git clone -b main git@github.com:grossmeyer/glennmeyer.dev public
       - run:
           name: Build site
           working_directory: ~/glennmeyer.dev
@@ -29,5 +29,5 @@ workflows:
     - build:
         filters:
           branches:
-            only: master
+            only: main
 ...
