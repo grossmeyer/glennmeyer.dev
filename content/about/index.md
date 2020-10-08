@@ -36,11 +36,11 @@ These days I am most interested in cloud computing technology and software devel
 
 I intend to eventually write a full blog detailing how I created this website, but for now, here is the basic overview. 
 
-For various reasons, I didn't want to create a WordPress blog. Mainly I wanted to create something that was easier to manage. I discovered [Hugo](https://gohugo.io/) after dabbling with [Jekyll](https://jekyllrb.com/). I messed around with several different themes before settling on [ReFresh](https://themes.gohugo.io/hugo-refresh/). ReFresh is easily customizable, and I quite like the look of it.
+For various reasons, I didn't want to create a WordPress blog. Mainly I wanted to create something that was easier to manage. I discovered [Hugo](https://gohugo.io/) after dabbling with [Jekyll](https://jekyllrb.com/). I messed around with several different themes before settling on [ReFresh](https://themes.gohugo.io/hugo-refresh/). ReFresh is easily customizable, and I quite like the look and feel of it.
 
 I use Git along with GitHub so that I can easily make changes whether I am at home or working from my laptop. The source files are a public [repo](https://github.com/grossmeyer/glennmeyer.dev) if you are curious how the website is put together.
 
-Deployment is handled automatically whenever I push changes to GitHub by using [CircleCI](https://circleci.com/), which then uses a webhook to notify [Netlify](https://www.netlify.com/) of the update. My domain name is registered with [Namecheap](https://www.namecheap.com/).
+CI/CD is handled by [CircleCI](https://circleci.com/) and is set to run on every GitHub change. After successfully passing a new build, CircleCI uses a webhook to notify [Netlify](https://www.netlify.com/) of the update, at which point Netlify will grab the latest files from GitHub. Netlify handles both the hosting and DNS. My domain name is registered with [Namecheap](https://www.namecheap.com/).
 
 I use [VS Code](https://code.visualstudio.com/) for all of my editing as it makes working with Markdown files very straightforward.
 
@@ -64,5 +64,5 @@ Found random helpful stuff on the [Hugo Discourse Forums](https://discourse.gohu
 
 It seems like a small thing, but I would like to match my \<a> tags to the green color scheme that I currently have customized. I've spent several hours crawling through the CSS for ReFresh, but haven't found a clean way to target just that. At this point I think it is somewhere in the SASS configuration, but I haven't learned much of SASS yet. If anyone knows how or where to change that, please let me know!
 
-About the only thing I don't like about the ReFresh theme is that there isn't a simple way to navigate back to the homepage except hitting the back arrow or typing it manually. Ideally there would be a Home link in the top right that would take you back to the start. Not a big deal, but it bothers me. What that really means is that I will eventually rebuild this website completely customized from scratch. I'm already mulling that idea and am debating between using Django, Flask, or ReactJS.
+About the only thing I don't like about the ReFresh theme is that there isn't a simple way to navigate back to the homepage except hitting the back arrow or typing it manually. Ideally there would be a Home link in the top right that would take you back to the start. Not a big deal, but it bothers me. What that really means is that I will eventually rebuild this website completely customized from scratch. I'm already mulling that idea and am debating between using Django, Flask, or ReactJS. UPDATE: full update of this website is coming soon, written in JavaScript! Django and Flask are cool, but they aren't really what I'm looking for with the types of projects I have in mind, including my new website which will be more blog-like.
 
